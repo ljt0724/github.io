@@ -187,10 +187,10 @@ img {
   box-shadow: var(--shadow-hover);
 }
 
-/* 16:10 封面比例 */
+/* 16:9 封面比例 */
 .card__cover {
   position: relative;
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 16 / 9;
   overflow: hidden;
   background: #eef1f6;
 }
@@ -213,6 +213,8 @@ img {
 .card__cover--04 { background: linear-gradient(135deg, #f9f0ff 0%, #efdbff 100%); }
 .card__cover--05 { background: linear-gradient(135deg, #e6fffb 0%, #b5f5ec 100%); }
 .card__cover--06 { background: linear-gradient(135deg, #fff7e6 0%, #ffe7ba 100%); }
+.card__cover--07 { background: linear-gradient(135deg, #e8f0fe 0%, #efdbff 100%); }
+.card__cover--08 { background: linear-gradient(135deg, #f0f5ff 0%, #d6e8ff 100%); }
 
 .card__body {
   padding: 20px 20px 24px;
@@ -248,7 +250,7 @@ img {
   font-size: 14px;
   line-height: 1.65;
   color: var(--color-text-secondary);
-  margin-top: auto;
+  margin-top: 0;
 }
 
 /* ============================================================
@@ -423,7 +425,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 40px;
+  gap: 16px;
   margin-top: 8px;
 }
 

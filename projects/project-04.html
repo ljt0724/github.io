@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CRM 客户管理系统 | 作品集</title>
+  <title>SMYZE运维管理系统 | 作品集</title>
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -17,32 +17,42 @@
 
     <article class="detail-page">
       <header class="detail-hero">
-        <p class="detail-hero__type">CRM · 销售 · 2023</p>
-        <h1>CRM 客户管理系统</h1>
+        <p class="detail-hero__type">AI工作流 · B端系统 · 2026</p>
+        <h1>SMYZE运维管理系统</h1>
         <div class="detail-hero__role">
           <span class="detail-hero__role-label">设计职责</span>
-          <p class="detail-hero__role-text">负责销售漏斗、客户详情页与跟进记录模块设计，完成移动端外勤场景适配与可用性验证。</p>
+          <p class="detail-hero__role-text">从0到1完成SMYZE运维管理系统的设计与规范搭建。深度参与产品需求分析、⽤⼾调研及架构决策，推动设计驱动业务落地。建⽴AI设计⼯作流，团队设计交付效率整体提升60%。</p>
         </div>
-        <p class="detail-desc">线索到回款全流程可视化，销售团队跟进转化率提升 22%。</p>
+        <p class="detail-desc">核⼼故障处理效率提升 40%；新品上市周期从 2周 压缩⾄ 2天；内容分发及批量操作错误率降低 87%；运维NPS
+提升 35分；沉淀 500+ 篇 知识库、32个 组件库；设计交付效率提升 60%（通过AI⼯作流实现）。</p>
       </header>
 
       <section class="detail-section">
         <h2>设计背景</h2>
-        <p>销售团队线索跟进缺乏统一工具，客户信息散落在个人微信与表格中，管理层无法实时掌握 pipeline 健康度。</p>
+        <p>SMYZE公司业务高速扩张，门店数量年增50%，设备种类翻倍，旧有工具组合（Zabbix+Excel+微信群+Jira+自研小工具）已无法支撑。
+SMYZE 智能运维管理平台是为SMYZE公司打造的一个统一、高效、数据驱动的智能运维业务平台，赋能运维、运营及饮品研发团队，实现从“被动救火”到“主动运维”、“数据赋能”的业务运营模式升级。作为SMYZE业务的核心支撑系统，本项目旨在整合分散的运维流程、设备资产、业务数据与知识库，为内部团队提供一个集实时监控、流程管理、数据分析、资产配置于一体的一站式工作平台，全面提升业务稳定性、运营效率与协同创新能力。</p>
       </section>
 
       <section class="detail-section">
         <h2>需求分析</h2>
         <ul>
-          <li>一线销售：快速录入线索、记录跟进、设置提醒</li>
-          <li>销售主管：查看团队漏斗、预测业绩、分配线索</li>
-          <li>管理层：区域业绩对比与回款趋势</li>
+          <li>面临的挑战：五类资产（设备、内容、餐品、软件、知识）分别面临不同的管理方式与核心问题，导致“孤岛困境”。设备依赖Excel台账，信息滞后且失联，故障发现晚；内容通过U盘拷贝，无版本控制，分发错误率达15%，门店促销内容不一致；餐品使用纸质文档管理，配方更新无法同步设备，新品上市延迟两周；软件需人工上门升级，缺乏灰度机制，一次失败即全量崩盘；知识依赖老师傅经验，人走经验失传，新人上手需两周。这些问题共同制约了业务的效率与稳定性。</li>
+          <li>设计目标：推动从“被动救火”到“主动赋能”的战略转型，实现五类资产全流程统一管理，让用户在单一平台完成90%日常工作，并将核心故障平均修复时间（MTTR）降低40%，具体通过缩短任务完成时间、减少系统切换次数、加速故障定位与处理，以及优化新品上市周期和故障重复发生率来衡量。</li>
+          <li>用户人群：运维、运营及饮品研发团队</li>
         </ul>
       </section>
 
       <section class="detail-section">
         <h2>设计思路</h2>
-        <p>以客户生命周期为主线组织功能，看板视图支持拖拽变更阶段，详情页采用时间轴呈现全部跟进记录。</p>
+        <p>以“打破五套流程、五个系统、五类角色之间无对话”的困境为出发点，设计目标围绕四个层面展开：
+
+战略层面：推动运维模式从“被动救火”转向“主动赋能”，通过提升运维团队价值感知与跨部门协作效率来实现转型。
+
+业务层面：实现设备、内容、餐品、软件、知识五类资产的全流程统一管理，以缩短新品上市周期、降低故障重复发生率为衡量标准。
+
+体验层面：打造一站式工作平台，让用户能在单一平台完成90%的日常工作，通过缩短任务完成时间、减少系统切换次数来优化操作体验。
+
+项目层面：聚焦核心故障响应效率，将平均修复时间（MTTR）降低40%，具体从故障定位时间与处理时间两个维度进行优化。</p>
       </section>
 
       <section class="detail-section">
@@ -53,7 +63,52 @@
           </figure>
           <figure class="detail-figure">
             <img src="../assets/projects/project-04/02.jpg" alt="客户详情页">
-            <figcaption>客户详情 — 跟进时间轴</figcaption>
+          </figure>
+          <figure class="detail-figure">
+            <img src="../assets/projects/project-04/03.jpg" alt="客户详情页">
+          </figure>
+          <figure class="detail-figure">
+            <img src="../assets/projects/project-04/04.jpg" alt="客户详情页">
+          </figure><figure class="detail-figure">
+            <img src="../assets/projects/project-04/05.jpg" alt="客户详情页">
+          </figure><figure class="detail-figure">
+            <img src="../assets/projects/project-04/06.jpg" alt="客户详情页">
+          </figure><figure class="detail-figure">
+            <img src="../assets/projects/project-04/07.jpg" alt="客户详情页">
+          </figure><figure class="detail-figure">
+            <img src="../assets/projects/project-04/08.jpg" alt="客户详情页">
+          </figure><figure class="detail-figure">
+            <img src="../assets/projects/project-04/09.jpg" alt="客户详情页">
+          </figure><figure class="detail-figure">
+            <img src="../assets/projects/project-04/10.jpg" alt="客户详情页">
+          </figure><figure class="detail-figure">
+            <img src="../assets/projects/project-04/11.jpg" alt="客户详情页">
+          </figure><figure class="detail-figure">
+            <img src="../assets/projects/project-04/12.jpg" alt="客户详情页">
+          </figure><figure class="detail-figure">
+            <img src="../assets/projects/project-04/13.jpg" alt="客户详情页">
+          </figure><figure class="detail-figure">
+            <img src="../assets/projects/project-04/14.jpg" alt="客户详情页">
+          </figure><figure class="detail-figure">
+            <img src="../assets/projects/project-04/15.jpg" alt="客户详情页">
+          </figure><figure class="detail-figure">
+            <img src="../assets/projects/project-04/16.jpg" alt="客户详情页">
+          </figure><figure class="detail-figure">
+            <img src="../assets/projects/project-04/17.jpg" alt="客户详情页">
+          </figure><figure class="detail-figure">
+            <img src="../assets/projects/project-04/18.jpg" alt="客户详情页">
+          </figure><figure class="detail-figure">
+            <img src="../assets/projects/project-04/19.jpg" alt="客户详情页">
+          </figure><figure class="detail-figure">
+            <img src="../assets/projects/project-04/20.jpg" alt="客户详情页">
+          </figure><figure class="detail-figure">
+            <img src="../assets/projects/project-04/21.jpg" alt="客户详情页">
+          </figure><figure class="detail-figure">
+            <img src="../assets/projects/project-04/22.jpg" alt="客户详情页">
+          </figure><figure class="detail-figure">
+            <img src="../assets/projects/project-04/23.jpg" alt="客户详情页">
+          </figure><figure class="detail-figure">
+            <img src="../assets/projects/project-04/24.jpg" alt="客户详情页">
           </figure>
         </div>
       </section>
